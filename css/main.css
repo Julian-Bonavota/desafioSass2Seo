@@ -1,0 +1,88 @@
+/*mapas*/
+.standard {
+  background-color: #DAF7A6; }
+
+body nav ul li a {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  background-color: white;
+  border-radius: 50px;
+  padding: 5px; }
+
+body nav ul li:hover {
+  transform: scale(1.6);
+  transition: 1s; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/*estilos del menu*/
+body {
+  background-color: #DAF7A6;
+  /*fin de estilos del menu*/
+  /*home*/
+  /*herramientas electricas*/ }
+  body .contenedor {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "header header" "main  main" "footer footer";
+    justify-content: center; }
+  body header {
+    grid-area: header;
+    text-align: center;
+    margin-bottom: 20px; }
+    body header h1 {
+      text-decoration: none;
+      color: black;
+      margin-bottom: 50px; }
+  body nav {
+    justify-self: center; }
+    body nav ul {
+      display: flex;
+      list-style: none;
+      margin-bottom: 30px; }
+  body main {
+    grid-area: main; }
+    body main .imagenHerr {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 50px;
+      width: 500px; }
+  body footer {
+    grid-area: footer; }
+    body footer p {
+      text-decoration: none;
+      text-align: center;
+      margin-bottom: 20px;
+      color: black;
+      margin-top: 20px; }
+  body main section {
+    display: grid;
+    justify-content: center; }
+    body main section img {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+      margin-top: 50px;
+      width: 300px; }
+    body main section p {
+      text-decoration: none;
+      text-align: center;
+      margin-bottom: 20px;
+      color: black; }
+  body .mainHerramientas h2 {
+    text-decoration: none;
+    justify-content: center; }
+  @media screen and (max-width: 768px) and (min-width: 320px) {
+    body header {
+      margin-bottom: 5px; }
+    body main p {
+      text-align: center; }
+    body .imagenHerr {
+      display: flex;
+      width: 100px;
+      justify-self: center; }
+    body nav ul li a {
+      margin: 5px; } }
